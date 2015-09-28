@@ -267,16 +267,32 @@ section {
 }
 
 .banner-txt h1 {
-  font-family: "Arvo";
+  font-family: "Arvo", "Lato", Arial, serif;
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 69px;
 }
 
 .banner-txt h3 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
-.banner-txt button {
 
+/* =FAQ
+-------- */
+
+.question, .answer {
+  text-align: left;
+  padding: 20px 0 0 10px;
+}
+
+.question {
+  border: 2px solid black;
+  padding: 20px 0 0 10px;
+  margin-top: 4px;
+}
+
+.answer {
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
