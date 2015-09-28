@@ -24,6 +24,8 @@ h3 {
   font-size: 28px;
 }
 
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -205,7 +207,6 @@ section {
   background-color: transparent;
 }
 
-
 /* =Hero
 -------- */
  
@@ -245,4 +246,14 @@ section {
 }
 .hero .separator:before {
   background-color: white;
+}
+
+.banner {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+.banner-txt {
+  text-align: left;
 }
