@@ -93,6 +93,12 @@ h3 {
   color: #222;
 }
 
+.button.source {
+  background: white;
+  margin-top: 30px;
+}
+
+
 
 /* =Section general styling
 -------- */
@@ -256,4 +262,21 @@ section {
 
 .banner-txt {
   text-align: left;
+  height: 100%;
+  display: inline-block;
+}
+
+.banner-txt h1 {
+  font-family: "Arvo";
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 69px;
+}
+
+.banner-txt h3 {
+  font-size: 22px;
+}
+
+.banner-txt button {
+
 }
