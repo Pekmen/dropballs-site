@@ -296,3 +296,33 @@ section {
   border: 1px solid black;
   margin-bottom: 10px;
 }
+
+
+/* =Clients
+-------- */
+ 
+.clients {
+  list-style: none;
+}
+.clients li {
+  display: inline-block;
+  width: 18%;
+  margin-right: 2%;
+}
+.clients li:last-child {
+  margin-right: 0;
+}
+.clients li img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+/* =About us
+-------- */
+
+}
