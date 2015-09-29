@@ -322,7 +322,48 @@ section {
 }
 
 
-/* =About us
+/* =Contacts
 -------- */
 
+address {
+  text-align: left;
+  padding: 20px;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 18px;
+  background: lightgrey;
+  margin-bottom: 40px;
+}
+
+address h5 {
+  font-family: "Lato", Arial, serif;
+  font-weight: 600;
+}
+
+.social-links li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: black;
+  font-size: 30px;
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  font-family: "Lato", Arial, serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+form .button {
+  margin-top: 56px;
 }
