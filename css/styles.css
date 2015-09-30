@@ -233,7 +233,7 @@ section {
 }
 .hero-image:after {
   content: '';
-  opacity: .87; /* layer alpha */
+  opacity: .7; /* layer alpha */
   background-image: -moz-linear-gradient(right, #3508B2 0%, #130340 100%); /* gradient overlay */
   background-image: -o-linear-gradient(right, #3508B2 0%, #130340 100%); /* gradient overlay */
   background-image: -webkit-linear-gradient(right, #3508B2 0%, #130340 100%); /* gradient overlay */
@@ -330,11 +330,18 @@ section {
   margin-top: 4px;
 }
 
-.answer {
+.faq-block .answer {
   border: 1px solid black;
   margin-bottom: 10px;
   display: none;
+  border-top: none;
 }
+
+.faq-block .answer.active {
+  display: block;
+}
+
+
 
 
 /* =Clients
