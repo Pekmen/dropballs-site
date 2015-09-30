@@ -230,6 +230,7 @@ section {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   opacity: .9;
+  background-attachment: fixed;
 }
 .hero-image:after {
   content: '';
@@ -292,6 +293,7 @@ section {
 .features:before {
   background: url("../images/features_bg_image.jpg");
   background-position: 50% 0;
+  background-attachment: fixed;
 }
 
 .feature-pic {
@@ -350,6 +352,7 @@ section {
 .clients:before {
   background: url("../images/clients_bg_image.jpg");
   background-position: 50% 0;
+  background-attachment: fixed;
 }
 
 .clients {
