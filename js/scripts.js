@@ -53,16 +53,19 @@ $mainNavigation.singlePageNav({
 
 // FAQ handling
 
-
 $('#faq .question').on('click', function() {
     
     var $currentAnswer = $(this).next();
 
+
+    // Hide answer on second click
     if ($currentAnswer.hasClass('active')) {
         $currentAnswer.slideUp('300', function() {
             $(this).removeClass('active');
         });
     }
+
+    // Show current answer and hide the previous
     else {
         $("#faq").find('.answer.active').slideUp('300', function() {
             $(this).removeClass('active');
